@@ -96,8 +96,12 @@ nav .links-wrapper {
   opacity: 0.7;
 }
 
+.hero-image img {
+  object-fit: cover;
+}
+
 .hero-image {
-  max-width: 460px;
+  flex: 1;
 }
 
 .products-section {
@@ -151,5 +155,24 @@ nav .links-wrapper {
 }
 
 .about-section {
-  margin-block-start: 5rem;
+  margin-block-start: 4rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.about-img {
+}
+
+.about-img img {
+  width: 450px;
+  object-fit: cover;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  padding-block-end: 1rem;
 }
